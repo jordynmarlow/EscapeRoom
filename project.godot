@@ -19,6 +19,12 @@ config/name="EscapeRoom"
 run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
+[layer_names]
+
+2d_render/layer_1="player"
+2d_render/layer_2="walls"
+2d_render/layer_3="furniture"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
