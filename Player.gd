@@ -13,7 +13,7 @@ func _process(delta):
 	elif int(Input.is_action_pressed("ui_right")) > 0:
 		motion.x += 1
 		dir = 'right'
-	if int(Input.is_action_pressed("ui_up")) > 0:
+	elif int(Input.is_action_pressed("ui_up")) > 0:
 		motion.y -= 1
 		dir = 'up'
 	elif int(Input.is_action_pressed("ui_down")) > 0:
