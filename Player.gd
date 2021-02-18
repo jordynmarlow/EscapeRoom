@@ -26,3 +26,4 @@ func _process(delta):
 	$Sprite.animation = state + '_' + dir
 	motion = motion.normalized() * MAX_SPEED
 	motion = move_and_slide(motion)
+

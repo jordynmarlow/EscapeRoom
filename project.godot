@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="EscapeRoom"
-run/main_scene="res://World.tscn"
+run/main_scene="res://DiscordDetectsGamesIMakeWhoa.tscn"
 config/icon="res://icon.png"
 
 [layer_names]
